@@ -1,4 +1,4 @@
-package 朱磊.LeetCode.No9;
+package zhulei.LeetCode.No9;
 
 /**
  * @Author: zl

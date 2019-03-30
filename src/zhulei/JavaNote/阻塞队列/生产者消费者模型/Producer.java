@@ -1,4 +1,4 @@
-package 朱磊.JavaNote.阻塞队列.生产者消费者模型;
+package zhulei.JavaNote.阻塞队列.生产者消费者模型;
 
 /**
  * @Author: zl

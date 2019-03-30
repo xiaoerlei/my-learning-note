@@ -1,4 +1,4 @@
-package 朱磊.LeetCode.No3;
+package zhulei.LeetCode.No3;
 
 import java.util.LinkedList;
 

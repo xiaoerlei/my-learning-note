@@ -1,4 +1,4 @@
-package 朱磊.CampusRecruitment.Huawei.数值跳跃;
+package zhulei.CampusRecruitment.Huawei.数值跳跃;
 
 import java.util.Scanner;
 

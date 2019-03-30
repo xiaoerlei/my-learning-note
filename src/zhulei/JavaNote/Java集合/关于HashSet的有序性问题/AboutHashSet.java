@@ -1,4 +1,4 @@
-package 朱磊.JavaNote.Java集合.关于HashSet的有序性问题;
+package zhulei.JavaNote.Java集合.关于HashSet的有序性问题;
 
 import java.util.HashSet;
 import java.util.Iterator;

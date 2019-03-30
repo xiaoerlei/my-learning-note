@@ -1,4 +1,4 @@
-package 朱磊.LeetCode.No234;
+package zhulei.LeetCode.No234;
 
 import java.util.Collections;
 import java.util.LinkedList;

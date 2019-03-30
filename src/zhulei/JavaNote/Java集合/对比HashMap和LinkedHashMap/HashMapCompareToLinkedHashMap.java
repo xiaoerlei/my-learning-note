@@ -1,4 +1,4 @@
-package 朱磊.JavaNote.Java集合.对比HashMap和LinkedHashMap;
+package zhulei.JavaNote.Java集合.对比HashMap和LinkedHashMap;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
