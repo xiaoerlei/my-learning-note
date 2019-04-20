@@ -16,7 +16,7 @@ package zhulei.DesignMode.代理模式.动态代理;
 public class Test {
 
     public static void main(String[] args) {
-        BookFacadeImpl bookFacadeImpl=new BookFacadeImpl();
+        BookFacadeImpl bookFacadeImpl = new BookFacadeImpl();
         BookFacadeProxy proxy = new BookFacadeProxy();
         BookFacade bookfacade = (BookFacade) proxy.bind(bookFacadeImpl);
         bookfacade.addBook();

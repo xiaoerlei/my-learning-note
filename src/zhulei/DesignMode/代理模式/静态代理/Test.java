@@ -9,9 +9,10 @@ package zhulei.DesignMode.代理模式.静态代理;
 public class Test {
 
     public static void main(String[] args) {
-        CountImpl countImpl = new CountImpl();
-        CountProxy countProxy = new CountProxy(countImpl);
+        Count countImpl = new CountImpl();
+        Count countProxy = new CountProxy(countImpl);
         countProxy.updateCount();
+        System.out.println();
         countProxy.queryCount();
     }
 }

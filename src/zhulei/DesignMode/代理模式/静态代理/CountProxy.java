@@ -7,17 +7,17 @@ package zhulei.DesignMode.代理模式.静态代理;
  */
 public class CountProxy implements Count {
 
-    private CountImpl countImpl;
+    private Count count;
 
-    public CountProxy(CountImpl countImpl){
-        this.countImpl = countImpl;
+    public CountProxy(Count count){
+        this.count = count;
     }
 
     @Override
     public void queryCount() {
         System.out.println("查询账户的预处理——————");
         // 调用真正的查询账户方法
-        countImpl.queryCount();
+        count.queryCount();
         System.out.println("查询账户之后————————");
     }
 
@@ -25,7 +25,7 @@ public class CountProxy implements Count {
     public void updateCount() {
         System.out.println("修改账户之前的预处理——————");
         // 调用真正的修改账户操作
-        countImpl.updateCount();
+        count.updateCount();
         System.out.println("修改账户之后——————————");
     }
 }
