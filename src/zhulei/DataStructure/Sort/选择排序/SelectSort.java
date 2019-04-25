@@ -19,6 +19,7 @@ public class SelectSort {
 
     private static void selectSort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
+            // 每一次循环，把当前循环内最小的元素放到循环位置的最前端
             for (int j = i + 1; j < arr.length; j++) {
                 if(arr[i] > arr[j])
                     swap(arr, i, j);

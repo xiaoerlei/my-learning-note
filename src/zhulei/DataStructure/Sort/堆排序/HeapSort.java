@@ -1,0 +1,68 @@
+package zhulei.DataStructure.Sort.堆排序;
+
+/**
+ * @Author: zl
+ * @Date: 2019/4/21 11:00
+ * @Description:
+ */
+public class HeapSort {
+
+    public static void main(String[] args) {
+        int[] arr = {5, 8, 6, 3, 7};
+        heapSort(arr);
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+    }
+
+    private static void heapSort(int[] arr) {
+        // 按照完全二叉树的特点，从最后一个非叶子节点开始，对于整棵树进行大根堆的调整
+        // 也就是说，是按照自下而上，每一层都是自右向左来进行调整的
+        /**
+         *  建堆
+         */
+        for (int i = arr.length / 2 - 1; i >= 0; i--) {
+            adjustHeap(arr, i, arr.length);
+        }
+
+        /**
+         *  排序
+         */
+        for (int j = arr.length - 1; j > 0; j--) {
+            // 元素交换，其实质就是把大顶堆的根元素，放到数组的最后；换句话说，就是每一次的堆调整之后，都会有一个元素到达自己的最终位置
+            swap(arr, 0, j);
+            // 元素交换之后，毫无疑问，最后一个元素无需再考虑排序问题了。
+            // 接下来我们需要排序的，就是已经去掉了部分元素的堆了，这也是为什么此方法放在循环里的原因
+            // 而这里，实质上是自上而下，自左向右进行调整的
+            adjustHeap(arr, 0, j);
+        }
+
+    }
+
+    private static void adjustHeap(int[] arr, int i, int length) {
+        // 临时保存一个temp，便于后面交换之后的比较
+        int temp = arr[i];
+        // 自上而下，自左向右一点点调整整棵树的部分，直到每一颗小子树都满足大根堆为止
+        for (int k = 2 * i + 1; k < length; k = k * 2 + 1) {
+            // 让k先指向子节点中最大的节点
+            if (k + 1 < length && arr[k] < arr[k + 1]) {
+                k++;
+            }
+            // 如果发现子节点更大，则进行值的交换
+            if (arr[k] > temp) {
+                swap(arr, i, k);
+                // 如果子节点更换了，那么，以子节点为根的子树也会受到影响呢, 所以，循环对子节点所在的树继续进行判断
+                i = k;
+                // 如果不用交换，那么，就直接终止循环了
+            } else {
+                break;
+            }
+        }
+    }
+
+    private static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+}

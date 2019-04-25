@@ -13,35 +13,47 @@ public class InsertSort {
 
     public static void main(String[] args) {
         int[] arr = {5, 8, 6, 3, 7};
-        insertSort(arr);
+//        insertSort_1(arr);
+        insertSort_2(arr);
+//        insertSort_3(arr);
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
     }
 
-    private static void insertSort(int[] arr) {
+    // 写法1
+    private static void insertSort_1(int[] arr) {
         int n = arr.length;
+        // 一共循环n次
         for (int i = 0; i < n; i++) {
-
             // 寻找元素arr[i]合适的插入位置
-            // 写法1
-//            for( int j = i ; j > 0 ; j -- )
-//                if( arr[j] < arr[j - 1] )
-//                    swap(arr, j, j - 1);
-//                else
-//                    break;
-
-            // 写法2
-            for( int j = i; j > 0 && arr[j] < arr[j - 1] ; j--)
+            for( int j = i ; j > 0 ; j -- )
+                if( arr[j] < arr[j - 1] )
+                    swap(arr, j, j - 1);
+                else
+                    break;
+        }
+    }
+    // 写法2
+    private static void insertSort_2(int[] arr) {
+        int n = arr.length;
+        // 一共循环n次
+        for (int i = 0; i < n; i++) {
+            // 如果当前的数大于前一个数，则无需再进行比较
+            for (int j = i; j > 0 && arr[j] < arr[j - 1]; j--)
                 swap(arr, j, j - 1);
-
-            // 写法3
-//            int e = arr[i];
-//            int j = i;
-//            for( ; j > 0 && arr[j - 1] > e; j--)
-//                arr[j] = arr[j - 1];
-//            arr[j] = e;
-
+        }
+    }
+    // 写法3
+    private static void insertSort_3(int[] arr) {
+        int n = arr.length;
+        // 一共循环n次
+        for (int i = 0; i < n; i++) {
+            int e = arr[i];
+            int j = i;
+            for( ; j > 0 && arr[j - 1] > e; j--)
+                arr[j] = arr[j - 1];
+            arr[j] = e;
         }
     }
 

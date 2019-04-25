@@ -27,6 +27,7 @@ public class BubbleSort {
 
     private static void bubbleSort(int[] arr) {
         // 外层表示需要循环次数
+        // 每次循环，都把当前最大的数往后置（泡泡越大，越往上飘）
         for (int i = 0; i < arr.length; i++) {
             // 内层表示每次循环的比较对象（每相邻的两个元素需要比较一次，且每次循环都往前推移，少比较一次）
             for (int j = 0; j < arr.length - i - 1; j++) {

@@ -5,9 +5,9 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
+ * @Description: 实现 调用管理接口InvocationHandler  创建动态代理类
  * @Author: zl
  * @Date: 2019/4/2 18:19
- * @Description: 实现 调用管理接口InvocationHandler  创建动态代理类
  *
  *              Proxy类与普通类的唯一区别就是其字节码是由 JVM 在运行时动态生成的而非预存在于任何一个 .class 文件中
  */
