@@ -1,4 +1,4 @@
-package zhulei.JavaNote.阻塞队列.生产者消费者模型;
+package zhulei.JavaNote.Java多线程.生产者消费者模型;
 
 import java.util.Random;
 import java.util.concurrent.BlockingQueue;
