@@ -1,9 +1,10 @@
-package zhulei.JianzhiOffer.替换空格;
+package zhulei.JianzhiOffer.No2_替换空格;
 
 /**
  * @Author: zl
  * @Date: 2019/3/6 18:43
- * @Description:请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
+ * @Description: 请实现一个函数，将一个字符串中的每个空格替换成“%20”。
+ *              例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
  */
 public class Solution {
 
@@ -19,6 +20,7 @@ public class Solution {
 
         return str.toString().replace(" ","%20");
     }
+
     // 逐个字节查找，当找到空格时，替换为%20
     public static String otherSolution(StringBuffer str) {
         if(str == null) return null;

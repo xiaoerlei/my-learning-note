@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.从尾到头打印链表;
+package zhulei.JianzhiOffer.No3_从尾到头打印链表;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * @Author: zl
  * @Date: 2019/3/6 19:01
- * @Description:输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
+ * @Description: 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
  */
 public class Solution {
 

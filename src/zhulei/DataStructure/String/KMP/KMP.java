@@ -1,4 +1,4 @@
-package zhulei.DataStructure.String;
+package zhulei.DataStructure.String.KMP;
 
 /**
  * @Author: zl
