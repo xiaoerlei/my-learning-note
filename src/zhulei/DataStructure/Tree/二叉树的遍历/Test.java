@@ -21,7 +21,7 @@ public class Test {
         System.out.println("------------------------");
 
         AVL<Integer> avlTree = new AVL<>();
-        for (int i = 1; i <= 7; i++) {
+        for (int i = 1; i <= 15; i++) {
             avlTree.add(i);
         }
         avlTree.preOrder();
@@ -29,5 +29,7 @@ public class Test {
         avlTree.inOrder();
         System.out.println();
         avlTree.postOrder();
+        System.out.println();
+        avlTree.spanOrder();
     }
 }

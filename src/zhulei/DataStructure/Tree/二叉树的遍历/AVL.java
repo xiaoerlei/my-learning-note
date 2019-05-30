@@ -1,5 +1,8 @@
 package zhulei.DataStructure.Tree.二叉树的遍历;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @Author: zl
  * @Date: 2019/4/8 14:28
@@ -133,6 +136,22 @@ public class AVL<E extends Comparable<E>> {
         postOrder(node.left);
         postOrder(node.right);
         System.out.print(node.e + " ");
+    }
+
+    // 广度遍历
+    public void spanOrder(){
+        Queue<TreeNode> queue = new LinkedList<>();
+        if(root != null)
+            queue.add(root);
+
+        while (!queue.isEmpty()){
+            TreeNode t = queue.poll();
+            System.out.print(t.e + " ");
+            if(t.left != null)
+                queue.add(t.left);
+            if(t.right != null)
+                queue.add(t.right);
+        }
     }
 
 }
