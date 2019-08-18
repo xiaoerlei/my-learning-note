@@ -17,32 +17,31 @@ public class TheBestChanceOfBuyStock {
 
     public static int maxProfit(int[] prices) {
         int profit = 0;
-        if(prices.length == 0) {
+        if(prices.length == 0)
             return 0;
-        }
 
-        int[] leftMaxProfit = new int[prices.length];//前i天中最大的
-        int minPrice = prices[0];//买入最低价格
-        for(int i = 1 ;i < prices.length;i++) {
-            if(minPrice > prices[i]) {
+        int[] leftMaxProfit = new int[prices.length];   // 前i天中最大的
+        int minPrice = prices[0];                       // 买入最低价格
+        for(int i = 1 ; i < prices.length; i++) {
+            if(minPrice > prices[i])
                 minPrice = prices[i];
-            }
-            leftMaxProfit[i] = Math.max(prices[i]-minPrice,leftMaxProfit[i-1]);
+
+            leftMaxProfit[i] = Math.max(prices[i] - minPrice, leftMaxProfit[i - 1]);
         }
 
 
-        int[] rightMaxProfit = new int[prices.length]; //后i天中最大的
-        int maxPrice = prices[prices.length - 1];//卖出最高价格
-        for(int i = prices.length-2;i>0;i--) {
-            if(maxPrice < prices[i]) {
+        int[] rightMaxProfit = new int[prices.length];  // 后i天中最大的
+        int maxPrice = prices[prices.length - 1];       // 卖出最高价格
+        for(int i = prices.length - 2; i > 0; i--) {
+            if(maxPrice < prices[i])
                 maxPrice = prices[i];
-            }
-            rightMaxProfit[i] = Math.max(maxPrice-prices[i],rightMaxProfit[i+1]);
+
+            rightMaxProfit[i] = Math.max(maxPrice - prices[i], rightMaxProfit[i + 1]);
         }
 
-        for(int i = 0;i < prices.length;i++) {
-            profit = Math.max(profit,leftMaxProfit[i] +rightMaxProfit[i] );
-        }
+        for(int i = 0; i < prices.length; i++)
+            profit = Math.max(profit, leftMaxProfit[i] + rightMaxProfit[i]);
+
         return profit;
     }
 }
