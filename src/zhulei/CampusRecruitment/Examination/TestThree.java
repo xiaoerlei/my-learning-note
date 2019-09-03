@@ -1,11 +1,10 @@
 package zhulei.CampusRecruitment.Examination;
 
-import java.util.*;
+import java.util.Scanner;
 
-public class TestTwo {
+public class TestThree {
 
-    public static void main(String[] args) {
-
+    public static void main( String[] args ) {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNextLine()){
             String input = sc.nextLine();
@@ -14,4 +13,6 @@ public class TestTwo {
         sc.close();
     }
 
+
 }
+
