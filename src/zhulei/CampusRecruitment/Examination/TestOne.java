@@ -5,26 +5,80 @@ import java.util.*;
 public class TestOne {
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int V = sc.nextInt();
-        int[] price = new int[N];
-        int[] weight = new int[N];
-        for (int i = 0; i < N; i++) {
-            price[i] = sc.nextInt();
-            weight[i] = sc.nextInt();
+        List<String> list = new ArrayList<>();
+        while (sc.hasNextLine()) {
+            String input = sc.nextLine();
+            list.add(input);
         }
 
-        int[] dp = new int[V + 1];
-        for (int i = 1; i < N; i++) {
-            for (int j = V; j >= weight[i]; j--) {
-                dp[j] = Math.max(dp[j], dp[j - weight[i]] + price[i]);
-            }
+        for (int i = 0; i < list.size(); i++) {
+            String[] strArr = list.get(i).split(" ");
+            if (isCorrect(strArr))
+                System.out.println(isRight(strArr));
+            else
+                System.out.println("error");
         }
 
-        System.out.println(dp[V]);
         sc.close();
     }
 
+    private static boolean isCorrect(String[] strArr) {
+        if(strArr.length % 2 != 1)
+            return false;
+
+        for (int i = 0; i < strArr.length; i++) {
+            if(i % 2 == 0){
+                if(!strArr[i].equals("true") && !strArr[i].equals("false"))
+                    return false;
+            }
+            else {
+                if(!strArr[i].equals("and") && !strArr[i].equals("or"))
+                    return false;
+            }
+        }
+
+        return true;
+    }
+
+    private static boolean isRight(String[] strArr) {
+        Stack<String> stack = new Stack<>();
+        for (int i = 0; i < strArr.length; i++) {
+            stack.push(strArr[i]);
+        }
+
+        Stack<String> operate = new Stack<>();
+        while (!stack.isEmpty()){
+
+            if (stack.peek().equals("and")){
+                stack.pop();
+                operate.push(cal(stack.pop(), operate.pop()));
+            }
+            else {
+                operate.push(stack.pop());
+            }
+
+        }
+
+        return operate.contains("true");
+    }
+
+    private static String cal(String str1, String str2) {
+        boolean b1 = str1.equals("true") ? true : false;
+        boolean b2 = str2.equals("true") ? true : false;
+
+        String res = "";
+        if(b1 && b2)
+            res = "true";
+        else
+            res = "false";
+
+        return res;
+    }
+
+
 }
+
+
 

@@ -26,4 +26,47 @@ public class Solution {
             list.add(input[i]);
         return list;
     }
+
+    // 基于快排
+    public ArrayList<Integer> GetLeastNumbers_BaseQuickSort(int [] input, int k) {
+        ArrayList<Integer> list = new ArrayList<>();
+        if(k > input.length || k == 0)
+            return list;
+
+        quickSort(input, 0, input.length - 1);
+
+        for(int i = 0; i < k; i++)
+            list.add(input[i]);
+
+        return list;
+    }
+
+    public void quickSort(int[] arr, int low, int high){
+        int i, j, temp;
+        if(low > high)    return;
+
+        i = low; j = high;
+        temp = arr[low];
+        while(i < j){
+            while(arr[j] >= temp && i < j)
+                j--;
+
+            while(arr[i] <= temp && i < j)
+                i++;
+
+            if(i < j)
+                swap(arr, i, j);
+        }
+        arr[low] = arr[i];
+        arr[i] = temp;
+
+        quickSort(arr, low, i - 1);
+        quickSort(arr, i + 1, high);
+    }
+
+    public void swap(int[] arr, int i, int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
 }
