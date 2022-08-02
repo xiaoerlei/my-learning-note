@@ -1,4 +1,4 @@
-package zhulei.DataStructure.Search.二分查找;
+package zhulei.DataStructure.Search.binary;
 
 import org.junit.jupiter.api.Test;
 

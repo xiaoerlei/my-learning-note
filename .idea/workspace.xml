@@ -46,11 +46,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/myJavaNote$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1554899239566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>zhulei.CampusRecruitment.Huawei.字符串展开.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/myJavaNote$Solution_function__2_.ic" NAME="Solution.function (2) Coverage Results" MODIFIED="1567347047830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>zhulei.LeetCode.No392_判断子序列.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/myJavaNote$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1554899239566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>zhulei.CampusRecruitment.Huawei.字符串展开.*</FILTER>
     </SUITE>
   </component>
   <component name="DatabaseView">
@@ -482,13 +482,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestOne">
-    <configuration name="OtherOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zhulei.CampusRecruitment.Examination.OtherOne" />
+  <component name="RunManager" selected="Application.HeapSortTest">
+    <configuration name="HeapSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zhulei.DataStructure.Sort.堆排序.HeapSortTest" />
       <module name="myJavaNote" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zhulei.CampusRecruitment.Examination.*" />
+          <option name="PATTERN" value="zhulei.DataStructure.Sort.堆排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -558,19 +558,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OtherOne" />
       <item itemvalue="JUnit.Solution.function" />
       <item itemvalue="JUnit.Solution.function (1)" />
       <item itemvalue="JUnit.Solution.function (2)" />
       <item itemvalue="Application.TestOne" />
+      <item itemvalue="Application.HeapSortTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapSortTest" />
         <item itemvalue="Application.TestOne" />
         <item itemvalue="JUnit.Solution.function (2)" />
         <item itemvalue="JUnit.Solution.function (1)" />
         <item itemvalue="JUnit.Solution.function" />
-        <item itemvalue="Application.OtherOne" />
       </list>
     </recent_temporary>
   </component>

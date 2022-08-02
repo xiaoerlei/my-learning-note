@@ -1,6 +1,7 @@
 package zhulei.DataStructure.Sort.堆排序;
 
 import zhulei.Utils.CommonUtils;
+import java.util.Arrays;
 
 /**
  * @Author: zl
@@ -14,15 +15,20 @@ public class MaxHeap {
      * 也就是说，是按照自下而上，每一层都是自右向左来进行调整的
      *
      * @param arr
+     * @param k
      */
-    public void maxheapSort(int[] arr) {
+    public static int[] minKHeapArray(int[] arr, int k) {
         // 建堆（让值最大的节点向上移动）
         for (int i = arr.length / 2 - 1; i >= 0; i--) {
             adjustHeap(arr, i, arr.length);
         }
 
+        int bound = k;
         // 排序（从最后一个节点开始，依次向前，每次都跟头节点交换，然后重新调整堆）
         for (int i = arr.length - 1; i > 0; i--) {
+            if(k-- == 0) {
+                return Arrays.copyOf(arr, bound);
+            }
             // 元素交换，其实质就是把大顶堆的根元素，放到数组的最后；换句话说，就是每一次的堆调整之后，都会有一个元素到达自己的最终位置
             CommonUtils.swap(arr, 0, i);
             // 元素交换之后，毫无疑问，最后一个元素无需再考虑排序问题了。
@@ -30,6 +36,16 @@ public class MaxHeap {
             // 而这里，实质上是自上而下，自左向右进行调整的
             adjustHeap(arr, 0, i);
         }
+        return arr;
+    }
+
+    /**
+     * 大顶堆排序
+     * @param arr
+     * @return
+     */
+    public static int[] maxHeapSort(int[] arr) {
+        return minKHeapArray(arr, arr.length);
     }
 
     // 每次让子结点中较大值的节点，与父节点进行交换
@@ -46,7 +62,7 @@ public class MaxHeap {
                 CommonUtils.swap(arr, i, k);
                 // 如果子节点更换了，那么，以子节点为根的子树也会受到影响。 所以，循环对子节点所在的树继续进行判断
                 i = k;
-            // 如果不用交换，那么，就直接终止循环了
+                // 如果不用交换，那么，就直接终止循环了
             } else
                 break;
         }
