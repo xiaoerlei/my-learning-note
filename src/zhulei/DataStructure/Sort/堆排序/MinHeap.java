@@ -16,7 +16,7 @@ public class MinHeap {
      * @param k
      * @return
      */
-    public static int[] maxKHeapArray(int[] arr, int k) {
+    public static int[] minKHeapArray(int[] arr, int k) {
         // 建堆（让值最小的节点向上移动）
         for (int i = arr.length / 2 - 1; i >= 0; i--) {
             adjustHeap(arr, i, arr.length);
@@ -26,11 +26,11 @@ public class MinHeap {
         int bound = k;
         for (int i = arr.length - 1; i > 0; i--, k--) {
             if(k == 0) {
-                return Arrays.copyOf(arr, bound);
+                return Arrays.copyOfRange(arr, arr.length - bound, arr.length);
             }
             // 交换 根节点 和 当前节点
             CommonUtils.swap(arr, 0, i);
-            // 自上而下，自左向右进行调整
+            // 自上而下，自左向右进行调整，每次让子结点中较小值的节点，与父节点进行交换
             adjustHeap(arr, 0, i);
         }
         return arr;
@@ -42,27 +42,26 @@ public class MinHeap {
      * @return
      */
     public static int[] minHeapSort(int[] arr) {
-        return maxKHeapArray(arr, arr.length);
+        return minKHeapArray(arr, arr.length);
     }
 
-
-    // 每次让子结点中较小值的节点，与父节点进行交换
+    // 调整小顶堆
     private static void adjustHeap(int[] arr, int i, int length) {
-        // 临时保存一个temp，便于后面交换之后的比较
-        int temp = arr[i];
-        // 自上而下，自左向右一点点调整整棵树的部分，直到每一颗小子树都满足小根堆为止
-        for (int k = 2 * i + 1; k < length; k = k * 2 + 1) {
-            // 让k先指向子节点中最小的节点
-            if (k + 1 < length && arr[k] > arr[k + 1])
-                k++;
-            // 如果发现子节点更小，则进行值的交换
-            if (arr[k] < temp) {
-                CommonUtils.swap(arr, i, k);
-                // 如果子节点更换了，那么，以子节点为根的子树也会受到影响。 所以，循环对子节点所在的树继续进行判断
-                i = k;
-                // 如果不用交换，那么，就直接终止循环了
-            } else
-                break;
+        // 定义左右叶子节点的角标
+        int left = 2 * i + 1, right = 2 * i + 2;
+        // 定义最大值节点的角标，并比较指向最大节点
+        int minIndex = i;
+        if (left < length && arr[left] < arr[minIndex]) {
+            minIndex = left;
+        }
+        if (right < length && arr[right] < arr[minIndex]) {
+            minIndex = right;
+        }
+        // 如果最大值在子节点上，则交换位置
+        if (minIndex != i) {
+            CommonUtils.swap(arr, minIndex, i);
+            // 交换后节点发生了变化，所以要再次调整，直到满足小顶堆的条件
+            adjustHeap(arr, minIndex, length);
         }
     }
 

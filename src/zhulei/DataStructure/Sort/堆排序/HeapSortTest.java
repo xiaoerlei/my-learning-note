@@ -10,12 +10,16 @@ import java.util.Arrays;
 public class HeapSortTest {
 
     public static void main(String[] args) {
-        int[] arr = {5, 8, 6, 3, 7};
+        int[] arr = {5, 8, 6, 3, 7, 4, 9};
 
+        // 测试小顶堆 排序
         System.out.println(Arrays.toString(MinHeap.minHeapSort(arr)));
-        System.out.println(Arrays.toString(MinHeap.maxKHeapArray(arr, 2)));
+        // 小顶堆 topK
+        System.out.println(Arrays.toString(MinHeap.minKHeapArray(arr, 2)));
 
+        // 测试大顶堆 排序
         System.out.println(Arrays.toString(MaxHeap.maxHeapSort(arr)));
-        System.out.println(Arrays.toString(MaxHeap.minKHeapArray(arr, 3)));
+        // 大顶堆 topK
+        System.out.println(Arrays.toString(MaxHeap.maxKHeapArray(arr, 3)));
     }
 }
