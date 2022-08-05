@@ -1,4 +1,4 @@
-package zhulei.DesignMode.代理模式.动态代理;
+package zhulei.DesignMode.Proxy.DynamicProxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

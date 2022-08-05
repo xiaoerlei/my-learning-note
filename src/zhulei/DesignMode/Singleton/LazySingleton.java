@@ -1,4 +1,4 @@
-package zhulei.DesignMode.单例模式;
+package zhulei.DesignMode.Singleton;
 
 /**
  * @Author: zl

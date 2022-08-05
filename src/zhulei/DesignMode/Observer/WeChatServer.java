@@ -1,4 +1,4 @@
-package zhulei.DesignMode.观察者模式;
+package zhulei.DesignMode.Observer;
 
 import java.util.ArrayList;
 import java.util.List;

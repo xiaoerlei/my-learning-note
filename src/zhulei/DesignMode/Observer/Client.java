@@ -1,13 +1,16 @@
-package zhulei.DesignMode.观察者模式;
+package zhulei.DesignMode.Observer;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * @Author: zl
  * @Date: 2019/4/2 12:36
  * @Description: 有一个微信公众号服务，不定时发布一些消息，关注公众号就可以收到推送消息，取消关注就收不到推送消息。
  */
-public class Test {
+public class Client {
 
-    public static void main(String[] args) {
+    @Test
+    public void fun() {
         // 初始化微信服务器
         WeChatServer server = new WeChatServer();
         // 初始化用户信息

@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d197c68-5345-40ee-a2ae-d9dc276e528f" name="Default Changelist" comment="2019.05.05">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zhulei/DataStructure/Search/binary/MethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Div.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Mul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/简单工厂模式结构图.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myJavaNote.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myJavaNote.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zhulei/DataStructure/Search/binary/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zhulei/DataStructure/Search/binary/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/HeapSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/HeapSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/MaxHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/MinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zhulei/JianzhiOffer/No23_二叉搜索树的后续遍历序列/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zhulei/JianzhiOffer/No23_二叉搜索树的后续遍历序列/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zhulei/JianzhiOffer/No4_重建二叉树/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zhulei/JianzhiOffer/No4_重建二叉树/Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,28 +125,36 @@
     <session id="-827383534">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="44" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="44" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="488" />
+          <entry key="ft" value="16" />
+          <entry key="java" value="1842" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="488" />
+          <entry key="JAVA" value="1842" />
+          <entry key="VTL" value="16" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -142,23 +165,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Search/binary/BinarySearch.java">
+        <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/HeapSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-621">
-              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="184">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/MaxHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+            <state relative-caret-position="23">
+              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1181#1182#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
+                <element signature="e#1287#1288#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,22 +192,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/MinHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="28" column="65" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="65" />
+            <state relative-caret-position="759">
+              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/HeapSortTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Factory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+            <state relative-caret-position="345">
+              <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Div.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -218,20 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/zhulei/CampusRecruitment/Examination/dajiang/TestOne.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No198_打家劫舍/Solution.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No123_买股票的最佳时机III/TheBestChanceOfBuyStock.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No309_最佳买卖股票时机含冷冻期/Solution.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No213_打家劫舍II/Solution.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No337_打家劫舍III/Solution.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No1019_链表中的下一个更大节点/Solution.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/单例模式/EagerSingle.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/单例模式/LazySingleton.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/单例模式/InnerSingleton.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/单例模式/EnumSingleton.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/单例模式/DCLSingleton.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No17_电话号码的字母组合/Solution.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No93_复原IP地址/Solution.java" />
         <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No215_数组中的第K个最大元素/Solution.java" />
         <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No39_组合总和/Solution.java" />
         <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No131_分割回文串/Solution.java" />
@@ -265,10 +292,24 @@
         <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No392_判断子序列/Solution.java" />
         <option value="$PROJECT_DIR$/src/zhulei/LeetCode/No474_一和零/Solution.java" />
         <option value="$PROJECT_DIR$/src/zhulei/CampusRecruitment/Examination/TestOne.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/MaxHeap.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/JianzhiOffer/No23_二叉搜索树的后续遍历序列/Solution.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/JianzhiOffer/No4_重建二叉树/Solution.java" />
         <option value="$PROJECT_DIR$/src/zhulei/DataStructure/Search/binary/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/DataStructure/Search/binary/MethordTest.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/DataStructure/Search/binary/MethodTest.java" />
         <option value="$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/HeapSortTest.java" />
         <option value="$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/MinHeap.java" />
-        <option value="$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/MaxHeap.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/pom.xml" />
+        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Opreate.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Add.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Operate.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Mul.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Sub.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Factory.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Operation.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Test.java" />
+        <option value="$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Div.java" />
       </list>
     </option>
   </component>
@@ -381,43 +422,14 @@
               <item name="my-learning-note" type="58d84e3e:PackageViewProjectNode" />
               <item name="myJavaNote" type="616d4139:PackageViewModuleNode" />
               <item name="zhulei" type="1f31426a:PackageElementNode" />
-              <item name="DataStructure" type="1f31426a:PackageElementNode" />
+              <item name="DesignMode" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="my-learning-note" type="58d84e3e:PackageViewProjectNode" />
               <item name="myJavaNote" type="616d4139:PackageViewModuleNode" />
               <item name="zhulei" type="1f31426a:PackageElementNode" />
-              <item name="DataStructure" type="1f31426a:PackageElementNode" />
-              <item name="Search.binary" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="my-learning-note" type="58d84e3e:PackageViewProjectNode" />
-              <item name="myJavaNote" type="616d4139:PackageViewModuleNode" />
-              <item name="zhulei" type="1f31426a:PackageElementNode" />
-              <item name="DataStructure" type="1f31426a:PackageElementNode" />
-              <item name="Sort" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="my-learning-note" type="58d84e3e:PackageViewProjectNode" />
-              <item name="myJavaNote" type="616d4139:PackageViewModuleNode" />
-              <item name="zhulei" type="1f31426a:PackageElementNode" />
-              <item name="DataStructure" type="1f31426a:PackageElementNode" />
-              <item name="Sort" type="1f31426a:PackageElementNode" />
-              <item name="堆排序" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="my-learning-note" type="58d84e3e:PackageViewProjectNode" />
-              <item name="myJavaNote" type="616d4139:PackageViewModuleNode" />
-              <item name="zhulei" type="1f31426a:PackageElementNode" />
-              <item name="DataStructure" type="1f31426a:PackageElementNode" />
-              <item name="Sort" type="1f31426a:PackageElementNode" />
-              <item name="快速排序" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="my-learning-note" type="58d84e3e:PackageViewProjectNode" />
-              <item name="myJavaNote" type="616d4139:PackageViewModuleNode" />
-              <item name="zhulei" type="1f31426a:PackageElementNode" />
-              <item name="Utils" type="1f31426a:PackageElementNode" />
+              <item name="DesignMode" type="1f31426a:PackageElementNode" />
+              <item name="SimpleFactory" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -443,32 +455,33 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1659513851934" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1659711388869" />
+    <property name="last_opened_file_path" value="F:/Idea/maven/apache-maven-3.6.1/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Code\my-learning-note\src\zhulei\DesignMode\SimpleFactory" />
+      <recent name="F:\Code\my-learning-note\src\zhulei" />
+      <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\DataStructure\Tree\根据前序中序来计算后序遍历" />
+      <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\DesignMode\观察者模式" />
+      <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\CampusRecruitment\Kuaishou\转化为二进制" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zhulei.DesignMode.SimpleFactory" />
+      <recent name="zhulei.JavaNote.Java多线程.多个线程顺序执行" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\DesignMode\单例模式" />
       <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\DesignMode\代理模式" />
       <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\DesignMode\代理模式\动态代理" />
       <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\CampusRecruitment\Huawei\字符串检测" />
       <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\CampusRecruitment\Huawei\合并数组" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="zhulei.JavaNote.Java多线程.多个线程顺序执行" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\DataStructure\Tree\根据前序中序来计算后序遍历" />
-      <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\DesignMode\观察者模式" />
-      <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\CampusRecruitment\Kuaishou\转化为二进制" />
-      <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\LeetCode\No21_合并两个有序链表" />
-      <recent name="E:\Idea\IdeaProject\myJavaNote\src\zhulei\CampusRecruitment\Kuaishou\是否为满二叉树" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -483,13 +496,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSortTest">
+  <component name="RunManager" selected="JUnit.Test.fun">
     <configuration name="HeapSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zhulei.DataStructure.Sort.堆排序.HeapSortTest" />
       <module name="myJavaNote" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="zhulei.DataStructure.Sort.堆排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zhulei.JianzhiOffer.No23_二叉搜索树的后续遍历序列.Solution" />
+      <module name="myJavaNote" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zhulei.JianzhiOffer.No23_二叉搜索树的后续遍历序列.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -510,68 +536,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution.function (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeapSortTest.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myJavaNote" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zhulei.LeetCode.No300_最长上升子序列.*" />
+          <option name="PATTERN" value="zhulei.DataStructure.Sort.堆排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="zhulei.LeetCode.No300_最长上升子序列" />
-      <option name="MAIN_CLASS_NAME" value="zhulei.LeetCode.No300_最长上升子序列.Solution" />
-      <option name="METHOD_NAME" value="function" />
+      <option name="PACKAGE_NAME" value="zhulei.DataStructure.Sort.堆排序" />
+      <option name="MAIN_CLASS_NAME" value="zhulei.DataStructure.Sort.堆排序.HeapSortTest" />
+      <option name="METHOD_NAME" value="fun" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution.function (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myJavaNote" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zhulei.LeetCode.No392_判断子序列.*" />
+          <option name="PATTERN" value="zhulei.DesignMode.SimpleFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="zhulei.LeetCode.No392_判断子序列" />
-      <option name="MAIN_CLASS_NAME" value="zhulei.LeetCode.No392_判断子序列.Solution" />
-      <option name="METHOD_NAME" value="function" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution.function" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myJavaNote" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zhulei.LeetCode.No451_根据字符出现频率排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="zhulei.LeetCode.No451_根据字符出现频率排序" />
-      <option name="MAIN_CLASS_NAME" value="zhulei.LeetCode.No451_根据字符出现频率排序.Solution" />
-      <option name="METHOD_NAME" value="function" />
+      <option name="PACKAGE_NAME" value="zhulei.DesignMode.SimpleFactory" />
+      <option name="MAIN_CLASS_NAME" value="zhulei.DesignMode.SimpleFactory.Test" />
+      <option name="METHOD_NAME" value="fun" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Solution.function" />
-      <item itemvalue="JUnit.Solution.function (1)" />
-      <item itemvalue="JUnit.Solution.function (2)" />
       <item itemvalue="Application.TestOne" />
       <item itemvalue="Application.HeapSortTest" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="JUnit.HeapSortTest.fun" />
+      <item itemvalue="JUnit.Test.fun" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.fun" />
+        <item itemvalue="JUnit.HeapSortTest.fun" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.HeapSortTest" />
         <item itemvalue="Application.TestOne" />
-        <item itemvalue="JUnit.Solution.function (2)" />
-        <item itemvalue="JUnit.Solution.function (1)" />
-        <item itemvalue="JUnit.Solution.function" />
       </list>
     </recent_temporary>
   </component>
@@ -696,7 +706,8 @@
       <workItem from="1566975783928" duration="1226000" />
       <workItem from="1567069294496" duration="7373000" />
       <workItem from="1567231936166" duration="27522000" />
-      <workItem from="1659460493900" duration="5260000" />
+      <workItem from="1659460493900" duration="15961000" />
+      <workItem from="1659707821230" duration="3382000" />
     </task>
     <task id="LOCAL-00001" summary="2019.03.31">
       <created>1554008382974</created>
@@ -814,39 +825,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Solution_function_(1) - 2019.09.01 at 15h 31m 41s.xml">
-      <configuration name="Solution.function (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Solution_function_(1) - 2019.09.01 at 15h 35m 23s.xml">
-      <configuration name="Solution.function (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Solution_function_(1) - 2019.09.01 at 15h 35m 35s.xml">
-      <configuration name="Solution.function (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Solution_function_(1) - 2019.09.01 at 15h 35m 45s.xml">
-      <configuration name="Solution.function (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Solution_function_(1) - 2019.09.01 at 15h 36m 09s.xml">
-      <configuration name="Solution.function (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Solution_function_(1) - 2019.09.01 at 16h 19m 39s.xml">
-      <configuration name="Solution.function (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Solution_function_(2) - 2019.09.01 at 22h 10m 56s.xml">
-      <configuration name="Solution.function (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Solution_function_(2) - 2019.09.01 at 22h 11m 41s.xml">
-      <configuration name="Solution.function (2)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Solution_function_(2) - 2019.09.01 at 22h 12m 22s.xml">
       <configuration name="Solution.function (2)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Solution_function_(2) - 2019.09.01 at 22h 12m 31s.xml">
       <configuration name="Solution.function (2)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HeapSortTest_fun - 2022.08.05 at 21h 38m 00s.xml">
+      <configuration name="HeapSortTest.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeapSortTest_fun - 2022.08.05 at 21h 38m 44s.xml">
+      <configuration name="HeapSortTest.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeapSortTest_fun - 2022.08.05 at 21h 39m 25s.xml">
+      <configuration name="HeapSortTest.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeapSortTest_fun - 2022.08.05 at 21h 40m 29s.xml">
+      <configuration name="HeapSortTest.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeapSortTest_fun - 2022.08.05 at 21h 42m 51s.xml">
+      <configuration name="HeapSortTest.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_fun - 2022.08.05 at 22h 48m 54s.xml">
+      <configuration name="Test.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_fun - 2022.08.05 at 22h 49m 43s.xml">
+      <configuration name="Test.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_fun - 2022.08.05 at 22h 50m 13s.xml">
+      <configuration name="Test.fun" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="790309000" />
+    <option name="totallyTimeSpent" value="804392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -861,7 +872,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4831309" visible="true" weight="0.17963752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4831309" visible="true" weight="0.18123667" />
       <window_info id="Structure" order="1" sideWeight="0.51686907" side_tool="true" weight="0.2332905" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -870,8 +881,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5009009" side_tool="true" weight="0.19509594" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32793522" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.27144408" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.32464713" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.27144408" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.32464713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32793522" />
@@ -1040,6 +1051,12 @@
           <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Div.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1053,77 +1070,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class" />
-    <entry file="file://$PROJECT_DIR$/src/zhulei/LeetCode/No0_UtilClass/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/LeetCode/No322_零钱兑换/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/LeetCode/No455_分发饼干/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/LeetCode/No215_数组中的第K个最大元素/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/LeetCode/No40_组合总和II/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="44" column="41" lean-forward="true" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/LeetCode/No77_组合/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="53" column="83" lean-forward="true" selection-start-line="53" selection-start-column="83" selection-end-line="53" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/LeetCode/No719_找出第k小的距离对/SmallestDistancePair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484">
-          <caret line="8" column="75" lean-forward="true" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/JianzhiOffer/No8_跳台阶/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/JianzhiOffer/No47_1到N的累加/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/LeetCode/No136_只出现一次的数字/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zhulei/LeetCode/No169_求众数/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
@@ -1180,13 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="67" column="28" lean-forward="true" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/JianzhiOffer/No4_重建二叉树/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1306,13 +1245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Search/binary/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Sort/快速排序/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1341,34 +1273,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/HeapSortTest.java">
+    <entry file="file://$PROJECT_DIR$/src/zhulei/JianzhiOffer/No23_二叉搜索树的后续遍历序列/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        <state relative-caret-position="526">
+          <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/MinHeap.java">
+    <entry file="file://$PROJECT_DIR$/src/zhulei/JianzhiOffer/No4_重建二叉树/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Search/binary/MethodTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="28" column="65" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-          </folding>
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Search/binary/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1771">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhulei/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/MaxHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+        <state relative-caret-position="23">
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/HeapSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhulei/DataStructure/Sort/堆排序/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Mul.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Sub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/jdk_8u181/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1661" column="19" selection-start-line="1661" selection-start-column="12" selection-end-line="1661" selection-end-column="19" />
+          <folding>
+            <element signature="e#37053#37054#0" expanded="true" />
+            <element signature="e#37100#37101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Div.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
         </state>
       </provider>
     </entry>

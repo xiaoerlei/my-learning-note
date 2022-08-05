@@ -1,4 +1,6 @@
-package zhulei.DesignMode.代理模式.动态代理;
+package zhulei.DesignMode.Proxy.DynamicProxy;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * @Author: zl
@@ -13,9 +15,10 @@ package zhulei.DesignMode.代理模式.动态代理;
     如果业务实现类是没有实现接口而是直接定义业务方法的话，就无法使用JDK动态代理了。
     并且，如果业务实现类中新增了接口中没有的方法，这些方法是无法被代理的（因为无法被调用）。
  */
-public class Test {
+public class Client {
 
-    public static void main(String[] args) {
+    @Test
+    public void fun() {
         BookFacadeImpl bookFacadeImpl = new BookFacadeImpl();
         BookFacadeProxy proxy = new BookFacadeProxy();
         BookFacade bookfacade = (BookFacade) proxy.bind(bookFacadeImpl);

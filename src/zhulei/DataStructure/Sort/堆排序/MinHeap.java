@@ -11,7 +11,8 @@ import java.util.Arrays;
 public class MinHeap {
 
     /**
-     * 返回数组最大的k个数字（无序）
+     * 返回数组最小的k个数字  ->  时间优先，所以小顶堆以最快的速度计算的最小topK
+     * （这种是优化排序算法，因为小顶堆的最顶层是数组中最小的元素，所以每次都会把最大的元素放到最末尾，因此minK，就是只循环k次来调整堆）
      * @param arr
      * @param k
      * @return
@@ -34,6 +35,38 @@ public class MinHeap {
             adjustHeap(arr, 0, i);
         }
         return arr;
+    }
+
+    /**
+     * 返回数组中最大的k个数字  ->  空间优先，所以小顶堆以最小的空间计算的最大topK
+     * （在限定 2k 的空间大小，数组可能大于等于2k的长度，来求取前k个最大数值）
+     * @param arr
+     * @param k
+     * @return
+     */
+    public static int[] maxKHeapArray(int[] arr, int k) {
+        int[] fixArr = arr.length >= k * 2 ? Arrays.copyOf(arr, k * 2) : arr;
+        int index = k;
+        // 每次都移动下标，直到所有的元素都在堆中调整过
+        while (index < arr.length) {
+            // 每次重新复制后面5个元素，用来重新给堆排序
+            for (int i = k; i < 2 * k && index < arr.length ; i++, index++) {
+                fixArr[i] = arr[index];
+            }
+            // 建堆（让值最小的节点向上移动）
+            for (int i = fixArr.length / 2 - 1; i >= 0; i--) {
+                adjustHeap(fixArr, i, fixArr.length);
+            }
+            // 调整
+            for (int i = fixArr.length - 1; i > 0; i--) {
+                // 交换 根节点 和 当前节点
+                CommonUtils.swap(fixArr, 0, i);
+                // 自上而下，自左向右进行调整，每次让子结点中较小值的节点，与父节点进行交换
+                adjustHeap(fixArr, 0, i);
+            }
+        }
+
+        return Arrays.copyOf(fixArr, k);
     }
 
     /**

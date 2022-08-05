@@ -1,24 +1,11 @@
 package zhulei.DataStructure.Search.binary;
 
-import org.junit.jupiter.api.Test;
-
 /**
  * @Author: zl
  * @Date: 2019/6/6 16:04
  * @Description:  二分查找的递归和非递归实现
  */
 public class BinarySearch {
-
-    @Test
-    public void fun(){
-        int[] arr = {3,5,11,17,21,23,28,30,32,50,64,78,81,95,101};
-        System.out.println(binarySearch(arr, 0, arr.length - 1, 22));
-        System.out.println(binarySearch(arr, 50));
-
-        int[] dupArr = {1,1,1,2,2,3,3,4,5,5,5,6,6};
-        System.out.println(findFirstElement(dupArr, 2));
-        System.out.println(findLastElement(dupArr, 2));
-    }
 
     /**
      * 递归实现
@@ -29,7 +16,7 @@ public class BinarySearch {
      * @param key： 查找值
      * @return 返回查找结果对应的数组索引，如果没有查到返回-1
      */
-    public int binarySearch(int[] arr, int start, int end, int key) {
+    public static int binarySearch(int[] arr, int start, int end, int key) {
         int mid = start + (end - start) / 2;
 
         if(start > end)
@@ -51,7 +38,7 @@ public class BinarySearch {
      * @param key： 查找值
      * @return 返回查找结果对应的数组索引，如果没有查到返回-1
      */
-    public int binarySearch(int[] arr, int key) {
+    public static int binarySearch(int[] arr, int key) {
         int start = 0;
         int end = arr.length - 1;
         int mid = arr.length / 2;
@@ -80,7 +67,7 @@ public class BinarySearch {
      * @param key： 查找值
      * @return 返回查找结果对应的数组索引，如果没有查到返回-1，如果查找到则返回第一次出现的索引
      */
-    private int findFirstElement(int[] dupArr, int key) {
+    public static int findFirstElement(int[] dupArr, int key) {
         int start = 0;
         int end = dupArr.length - 1;
         int mid = dupArr.length / 2;
@@ -109,7 +96,7 @@ public class BinarySearch {
      * @param key： 查找值
      * @return 返回查找结果对应的数组索引，如果没有查到返回-1，如果查找到则返回最后一次出现的索引
      */
-    private int findLastElement(int[] dupArr, int key) {
+    public static int findLastElement(int[] dupArr, int key) {
         int start = 0;
         int end = dupArr.length - 1;
         int mid = dupArr.length / 2;

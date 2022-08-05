@@ -1,4 +1,4 @@
-package zhulei.DesignMode.代理模式.静态代理;
+package zhulei.DesignMode.Proxy.StaticProxy;
 
 /**
  * @Author: zl

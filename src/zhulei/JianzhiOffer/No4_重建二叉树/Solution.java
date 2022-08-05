@@ -53,7 +53,7 @@ public class Solution {
         TreeNode root = new TreeNode(pre[preL]);
         // 得到中序遍历当前这个子树根节点的脚标索引
         int inRootIndex = inOrderIndex.get(root.val);
-        // 得到当前子树所有节点所对应的前序遍历数组的角标范围
+        // 得到当前子树所有节点所对应的前序遍历数组的角标范围（用于界定递归子树的数组范围）
         int range = inRootIndex - inL;
 
         // 分别对左右子树进行递归
