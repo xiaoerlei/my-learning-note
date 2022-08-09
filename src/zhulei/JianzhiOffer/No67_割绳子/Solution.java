@@ -11,10 +11,34 @@ import org.junit.jupiter.api.Test;
 public class Solution {
 
     @Test
-    public void fun(){
+    public void fun() {
+        System.out.println(cuttingRope(8));
         System.out.println(cutRope(8));
     }
 
+    /**
+     * 贪心
+     * @param n
+     * @return
+     */
+    public int cuttingRope(int n) {
+        if(n <= 3) {
+            return n - 1;
+        }
+        int res = 1;
+        while(n > 4) {
+            res *= 3;
+            n -= 3;
+        }
+
+        return res * n;
+    }
+
+    /**
+     * dp
+     * @param target
+     * @return
+     */
     public int cutRope(int target) {
         if(target == 0)
             return 0;

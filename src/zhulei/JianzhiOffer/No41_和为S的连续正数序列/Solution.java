@@ -1,7 +1,10 @@
 package zhulei.JianzhiOffer.No41_和为S的连续正数序列;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @Author: zl
@@ -15,8 +18,42 @@ import java.util.Arrays;
  */
 public class Solution {
 
-    public static void main(String[] args) {
+    @Test
+    void fun() {
+        System.out.println(Arrays.toString(findContinuousSequence(15)));
         System.out.println(FindContinuousSequence(9).toString());
+    }
+
+
+    /**
+     * 滑动窗口
+     * @param target
+     * @return
+     */
+    public int[][] findContinuousSequence(int target) {
+        int left = 1, right = 1, sum = 0;
+        List<int[]> seqList = new ArrayList<>();
+        while(left <= target / 2) {
+            // 不满足条件则滑动左右指针
+            while(sum < target) {
+                sum += right++;
+            }
+            while (sum > target) {
+                sum -= left++;
+            }
+            // 满足条件则记录结果
+            if(sum == target) {
+                int len = right - left;
+                int[] seq = new int[len];
+                for(int i = 0; i < len; i++) {
+                    seq[i] = left + i;
+                }
+                seqList.add(seq);
+                sum -= left++;
+            }
+        }
+
+        return seqList.toArray(new int[seqList.size()][]);
     }
 
     /*
