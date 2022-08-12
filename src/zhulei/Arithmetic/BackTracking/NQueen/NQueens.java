@@ -1,4 +1,4 @@
-package zhulei.Arithmetic.BackTracking.N皇后问题;
+package zhulei.Arithmetic.BackTracking.NQueen;
 
 /**
  * @Author: zl

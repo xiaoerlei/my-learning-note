@@ -1,5 +1,7 @@
 package zhulei.JianzhiOffer.No61_序列化二叉树;
 
+import java.util.*;
+
 /**
  * @Author: zl
  * @Date: 2019/6/20 11:27
@@ -7,26 +9,71 @@ package zhulei.JianzhiOffer.No61_序列化二叉树;
  */
 public class Solution {
 
-    public static void main(String[] args) {
-
+    //  ------------------------------ 非递归 ------------------------------
+    public String serialize(TreeNode root) {
+        if (root == null) {
+            return "[]";
+        }
+        StringBuilder res = new StringBuilder("[");
+        Queue<TreeNode> queue = new LinkedList<TreeNode>() {};
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            if (node != null) {
+                queue.add(node.left);
+                queue.add(node.right);
+                res.append(node.val).append(",");
+            } else {
+                res.append("null,");
+            }
+        }
+        res.deleteCharAt(res.length() - 1);
+        res.append("]");
+        return res.toString();
     }
 
+    public TreeNode deserialize(String data) {
+        if (data.equals("[]")) {
+            return null;
+        }
+        String[] valArr = data.substring(1, data.length() - 1).split(",");
+        TreeNode root = new TreeNode(Integer.parseInt(valArr[0]));
+        Queue<TreeNode> queue = new LinkedList<TreeNode>() {};
+        queue.add(root);
+        int i = 1;
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            if (!valArr[i].equals("null")) {
+                node.left = new TreeNode(Integer.parseInt(valArr[i]));
+                queue.add(node.left);
+            }
+            i++;
+            if (!valArr[i].equals("null")) {
+                node.right = new TreeNode(Integer.parseInt(valArr[i]));
+                queue.add(node.right);
+            }
+            i++;
+        }
+        return root;
+    }
+
+    //  ------------------------------ 递归 ------------------------------
     // 序列化时，用“ ”来分开节点，用“#”来表示空节点
-    String Serialize(TreeNode root) {
+    public String Serialize(TreeNode root) {
         if(root == null)
             return "#";
         return root.val + " " + Serialize(root.left) + " " + Serialize(root.right);
     }
 
-    String deserializeStr;  // 保存当前的未被序列化的字符串部分
-    TreeNode Deserialize(String str) {
+    private static String deserializeStr;  // 保存当前的未被序列化的字符串部分
+    public TreeNode Deserialize(String str) {
         if(str.length() == 0)
             return null;
         deserializeStr = str;
         return Deserialize();
     }
 
-    TreeNode Deserialize() {
+    public TreeNode Deserialize() {
         // 每次递归前，走抓取最前面的节点（用空格来作为切分），并保存切割后的字符串
         int index = deserializeStr.indexOf(" ");
         String curNode = (index == -1) ? deserializeStr : deserializeStr.substring(0, index);
@@ -42,7 +89,7 @@ public class Solution {
 }
 
 class TreeNode {
-    int val = 0;
+    int val;
     TreeNode left = null;
     TreeNode right = null;
 
