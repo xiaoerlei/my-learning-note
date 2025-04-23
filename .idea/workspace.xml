@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d197c68-5345-40ee-a2ae-d9dc276e528f" name="Default Changelist" comment="2019.05.05">
-      <change afterPath="$PROJECT_DIR$/my-learning-note.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zhulei/LeetCode/No1300_统计最大组的数目/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zhulei/LeetCode/No2154_统计隐藏数组数目/NumberOfArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zhulei/LeetCode/No2154_统计隐藏数组数目/NumberOfArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-learning-note.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-learning-note.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zhulei/DesignMode/Singleton/DCLSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zhulei/DesignMode/Singleton/DCLSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zhulei/JavaNote/JVM内存模型" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zhulei/JianzhiOffer/No27_字符串的排列/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zhulei/JianzhiOffer/No27_字符串的排列/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zhulei/JianzhiOffer/No31_整数中1出现的次数/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zhulei/JianzhiOffer/No31_整数中1出现的次数/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,29 +54,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="src" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="src" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="src" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="src" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -207,9 +188,9 @@
     <option name="jreName" value="corretto-22" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="311" />
     <option name="y" value="195" />
@@ -350,38 +331,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.NumberOfArrays.executor": "Run",
-    "Application.TheBestChanceOfBuyStock.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.NumberOfArrays.function (1).executor": "Run",
-    "JUnit.NumberOfArrays.function.executor": "Run",
-    "JUnit.Solution.function.executor": "Run",
-    "JUnit.Solution.test.executor": "Debug",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "ms-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/julyleizhu/Code/Java/my-learning-note",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/julyleizhu/Code/Java/my-learning-note/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.NumberOfArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TheBestChanceOfBuyStock.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.NumberOfArrays.function (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NumberOfArrays.function.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Solution.function.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Solution.test.executor&quot;: &quot;Debug&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;ms-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/julyleizhu/Code/Java/my-learning-note&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/julyleizhu/Code/Java/my-learning-note/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Code\my-learning-note\src\zhulei\DesignMode\Decoration" />
@@ -1007,7 +988,7 @@
     <entry file="file://$PROJECT_DIR$/src/zhulei/DesignMode/SimpleFactory/简单工厂模式结构图.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://F:/Java/jdk_8u181/javafx-src.zip!/javafx/util/Pair.java">
+    <entry file="jar://$PROJECT_DIR$/../../Java/jdk_8u181/javafx-src.zip!/javafx/util/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
@@ -1082,7 +1063,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/Java/jdk_8u181/src.zip!/java/util/ArrayList.java">
+    <entry file="jar://$PROJECT_DIR$/../../Java/jdk_8u181/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="407" column="19" selection-start-line="407" selection-start-column="19" selection-end-line="407" selection-end-column="19" />
@@ -1315,7 +1296,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/Java/jdk_8u181/src.zip!/java/lang/String.java">
+    <entry file="jar://$PROJECT_DIR$/../../Java/jdk_8u181/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="1924" column="42" selection-start-line="1924" selection-start-column="32" selection-end-line="1924" selection-end-column="42" />

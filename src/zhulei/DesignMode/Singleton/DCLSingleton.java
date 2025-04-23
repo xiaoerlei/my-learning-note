@@ -15,18 +15,23 @@ public class DCLSingleton {
     // 懒汉模式的改进，但仍然存在隐患
 //    private static DCLSingleton instance = null;
 
-    // 隐患解决：加上volatile关键字，这样就可以保证instance对象每次都是从主内存中读取的
+    /*
+        隐患解决：加上volatile关键字，这样就可以保证instance对象每次都是从主内存中读取的
+            线程1执行时，此时instance已经指向一块内存地址，不为null，但是对象还未完成初始化，
+            此时CPU切换到线程2执行第一个if判断，结果为false，于是返回了一个不完整的对象
+    */
     private static volatile DCLSingleton instance = null;
 
     private DCLSingleton() {
     }
 
     public static DCLSingleton getInstance() {
-        // 第一层判断主要是为了避免不必要的同步
+        // 第一层判断主要是为了避免不必要的同步和锁竞争，提高执行效率
         if (instance == null) {
-
+            // 保证线程执行下面代码块的过程是原子的
             synchronized (DCLSingleton.class) {
-                // 第二层判空是为了在null情况下创建实例
+                // 第二层判空是为了防止，在有可能会出现两个线程都经过了前面第一次检查，进而造成两次初始化。
+                // 此前可能有两个线程同时跳过了第一次if判断，其中一个执行代码块儿，而第二个线程被阻塞在
                 if (instance == null) {
                     instance = new DCLSingleton();
                 }

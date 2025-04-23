@@ -1,5 +1,7 @@
 package zhulei.JianzhiOffer.No27_字符串的排列;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -11,9 +13,10 @@ import java.util.Collections;
  */
 public class Solution {
 
-    public static void main(String[] args) {
+    @Test
+    void fun() {
         String str = "abc";
-        System.out.println(Permutation(str));
+        System.out.println(permutation(str));
     }
 
     /*
@@ -31,43 +34,48 @@ public class Solution {
 
         最后，递归的终止条件就是当 start==end，也就是只有一个记录需要做全排列，也就是到了最后一个记录，这就是全排列的一种情况，输入本次的记录，也就是数组str即可。
      */
-    public static ArrayList<String> Permutation(String str) {
+    public ArrayList<String> permutation(String str) {
         ArrayList<String> list = new ArrayList<>();
         // 先将字符串拆分成字符数组，方便后面的全排列操作
         char[] charArr = str.toCharArray();
         // 找出字符串的所有全排列
-        permutate(charArr, 0, charArr.length - 1, list);
+        fullPermutation(charArr, 0, charArr.length - 1, list);
         // 按字典顺序进行排序（从小到大）。当然这里也可以使用把字符放入TreeMap的做法
         Collections.sort(list);
         return list;
     }
 
-    private static void permutate(char[] str, int start, int end, ArrayList<String> list) {
-        if(start == end){
+    private void fullPermutation(char[] str, int start, int end, ArrayList<String> list) {
+        if (start == end) {
             StringBuilder sb = new StringBuilder();
-            for (int i = 0; i <=  end; i++)
+            for (int i = 0; i <= end; i++) {
                 sb.append(str[i]);
-            list.add(sb.toString());
-        } else {
-            for (int i = start; i <= end; i++) {
-                if(swapAccept(str, start, i))  // 检查判断，如果重复的话就跳过此次循环，进行下次递归
-                    continue;
-                swap(str, start, i);
-                permutate(str, start + 1, end, list);
-                swap(str, i, start);    // 递归完毕后再把元素交换回来
             }
+            list.add(sb.toString());
+            return;
+        }
+        for (int i = start; i <= end; i++) {
+            // 检查判断，如果重复的话就跳过此次循环，进行下次递归。如果不会出现重复的字母，这里就不需要判断
+            if (swapAccept(str, start, i)) {
+                continue;
+            }
+            swap(str, start, i);
+            fullPermutation(str, start + 1, end, list);
+            swap(str, i, start);    // 递归完毕后再把元素交换回来
         }
     }
+
     // 判断当前范围内元素有没有和目标元素相同（比如abb，则判断a中有没有元素和b相同，以及ab中是否有元素和b相同）
-    private static boolean swapAccept(char[] str, int i, int j) {
+    private boolean swapAccept(char[] str, int i, int j) {
         for (int k = i; k < j; k++) {
-            if(str[j] == str[k])
+            if (str[j] == str[k]) {
                 return true;
+            }
         }
         return false;
     }
 
-    private static void swap(char[] str, int i, int j) {
+    private void swap(char[] str, int i, int j) {
         char temp = str[i];
         str[i] = str[j];
         str[j] = temp;
