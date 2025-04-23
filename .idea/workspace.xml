@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d197c68-5345-40ee-a2ae-d9dc276e528f" name="Default Changelist" comment="2019.05.05">
-      <change afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my-learning-note.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zhulei/LeetCode/No2154_统计隐藏数组数目/NumberOfArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lombok_1_18_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/myJavaNote.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-learning-note.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zhulei/LeetCode/No1300_统计最大组的数目/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zhulei/LeetCode/No2154_统计隐藏数组数目/NumberOfArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zhulei/LeetCode/No2154_统计隐藏数组数目/NumberOfArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,6 +194,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand />
@@ -362,6 +358,7 @@
     "JUnit.NumberOfArrays.function (1).executor": "Run",
     "JUnit.NumberOfArrays.function.executor": "Run",
     "JUnit.Solution.function.executor": "Run",
+    "JUnit.Solution.test.executor": "Debug",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -405,20 +402,7 @@
       <recent name="zhulei.JavaNote.Java多线程.多个线程顺序执行" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumberOfArrays.function (1)">
-    <configuration name="NumberOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zhulei.LeetCode.No2154_统计隐藏数组数目.NumberOfArrays" />
-      <module name="myJavaNote" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zhulei.LeetCode.No2154_统计隐藏数组数目.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Solution.test">
     <configuration name="TheBestChanceOfBuyStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zhulei.LeetCode.No123_买股票的最佳时机III.TheBestChanceOfBuyStock" />
       <module name="myJavaNote" />
@@ -480,20 +464,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-learning-note" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zhulei.LeetCode.No1300_统计最大组的数目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zhulei.LeetCode.No1300_统计最大组的数目" />
+      <option name="MAIN_CLASS_NAME" value="zhulei.LeetCode.No1300_统计最大组的数目.Solution" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.NumberOfArrays" />
       <item itemvalue="Application.TheBestChanceOfBuyStock" />
       <item itemvalue="JUnit.NumberOfArrays.function" />
       <item itemvalue="JUnit.NumberOfArrays.function (1)" />
       <item itemvalue="JUnit.Solution.function" />
+      <item itemvalue="JUnit.Solution.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Solution.test" />
         <item itemvalue="JUnit.NumberOfArrays.function (1)" />
         <item itemvalue="JUnit.Solution.function" />
         <item itemvalue="JUnit.NumberOfArrays.function" />
         <item itemvalue="Application.TheBestChanceOfBuyStock" />
-        <item itemvalue="Application.NumberOfArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -623,7 +623,7 @@
       <workItem from="1659707821230" duration="21578000" />
       <workItem from="1660202287726" duration="7776000" />
       <workItem from="1660305559540" duration="12049000" />
-      <workItem from="1745316728367" duration="4912000" />
+      <workItem from="1745316728367" duration="13163000" />
     </task>
     <task id="LOCAL-00001" summary="2019.03.31">
       <created>1554008382974</created>
@@ -924,9 +924,9 @@
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zhulei/LeetCode/No2154_统计隐藏数组数目/NumberOfArrays.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="118" />
+          <url>file://$PROJECT_DIR$/src/zhulei/LeetCode/No1300_统计最大组的数目/Solution.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="120" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
