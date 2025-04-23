@@ -1,0 +1,50 @@
+// ==== 原代码 ====
+// ... 省略其他代码 ...
+
+
+// ==== 修改后代码 ====
+// 声明插件（Java项目必备）
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+    id 'io.freefair.lombok' version '8.6' // 添加Lombok插件
+}
+
+javafx {
+    version = "17.0.2"
+    modules = [ 'javafx.base', 'javafx.controls', 'javafx.graphics' ]
+}
+
+// 配置项目信息（可选）
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+// 配置仓库地址（从哪里下载依赖）
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/public' }
+    mavenCentral()
+}
+
+
+// 配置项目依赖
+dependencies {
+    // 需要添加完整的JavaFX模块
+    implementation 'org.openjfx:javafx-base:17.0.2'
+    implementation 'org.openjfx:javafx-controls:17.0.2'
+    implementation 'org.openjfx:javafx-graphics:17.0.2'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+
+    // Lombok依赖
+    compileOnly 'org.projectlombok:lombok:1.18.32'
+    annotationProcessor 'org.projectlombok:lombok:1.18.32'
+}
+
+
+// 配置Java版本
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+// ... 省略其他代码 ...
