@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No13_调整数组顺序使奇数位于偶数前面;
+package zhulei.JianZhiOffer.No13_调整数组顺序使奇数位于偶数前面;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No22_从上往下打印二叉树;
+package zhulei.JianZhiOffer.No22_从上往下打印二叉树;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

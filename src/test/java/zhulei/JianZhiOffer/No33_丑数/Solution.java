@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No33_丑数;
+package zhulei.JianZhiOffer.No33_丑数;
 
 /**
  * @Author: zl

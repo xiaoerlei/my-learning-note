@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No66_机器人的运动范围;
+package zhulei.JianZhiOffer.No66_机器人的运动范围;
 
 /**
  * @Author: zl

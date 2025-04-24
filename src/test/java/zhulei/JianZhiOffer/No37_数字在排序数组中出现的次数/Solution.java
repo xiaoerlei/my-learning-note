@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No37_数字在排序数组中出现的次数;
+package zhulei.JianZhiOffer.No37_数字在排序数组中出现的次数;
 
 import java.util.Arrays;
 

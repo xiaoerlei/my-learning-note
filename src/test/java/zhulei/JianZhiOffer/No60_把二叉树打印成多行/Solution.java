@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No60_把二叉树打印成多行;
+package zhulei.JianZhiOffer.No60_把二叉树打印成多行;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No25_复杂链表的复制;
+package zhulei.JianZhiOffer.No25_复杂链表的复制;
 
 /**
  * @Author: zl

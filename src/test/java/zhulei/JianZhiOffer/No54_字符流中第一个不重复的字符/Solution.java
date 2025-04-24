@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No54_字符流中第一个不重复的字符;
+package zhulei.JianZhiOffer.No54_字符流中第一个不重复的字符;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No68_数组中只出现一次的数字II;
+package zhulei.JianZhiOffer.No68_数组中只出现一次的数字II;
 
 import org.junit.jupiter.api.Test;
 

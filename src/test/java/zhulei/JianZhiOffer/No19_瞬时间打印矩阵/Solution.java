@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No19_瞬时间打印矩阵;
+package zhulei.JianZhiOffer.No19_瞬时间打印矩阵;
 
 import java.util.ArrayList;
 

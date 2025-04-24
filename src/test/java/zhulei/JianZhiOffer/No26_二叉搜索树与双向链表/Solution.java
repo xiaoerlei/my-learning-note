@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No26_二叉搜索树与双向链表;
+package zhulei.JianZhiOffer.No26_二叉搜索树与双向链表;
 
 /**
  * @Author: zl

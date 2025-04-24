@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No58_对称二叉树;
+package zhulei.JianZhiOffer.No58_对称二叉树;
 
 /**
  * @Author: zl

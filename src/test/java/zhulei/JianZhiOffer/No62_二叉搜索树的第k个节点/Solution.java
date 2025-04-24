@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No62_二叉搜索树的第k个节点;
+package zhulei.JianZhiOffer.No62_二叉搜索树的第k个节点;
 
 /**
  * @Author: zl

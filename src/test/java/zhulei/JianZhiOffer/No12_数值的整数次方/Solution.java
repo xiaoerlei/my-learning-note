@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No12_数值的整数次方;
+package zhulei.JianZhiOffer.No12_数值的整数次方;
 
 /**
  * @Author: zl

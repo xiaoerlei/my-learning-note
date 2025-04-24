@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No11_二进制中1的个数;
+package zhulei.JianZhiOffer.No11_二进制中1的个数;
 
 /**
  * @Author: zl

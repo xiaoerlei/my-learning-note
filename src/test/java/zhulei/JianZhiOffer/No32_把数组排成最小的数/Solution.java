@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No32_把数组排成最小的数;
+package zhulei.JianZhiOffer.No32_把数组排成最小的数;
 
 import java.util.ArrayList;
 import java.util.Collections;

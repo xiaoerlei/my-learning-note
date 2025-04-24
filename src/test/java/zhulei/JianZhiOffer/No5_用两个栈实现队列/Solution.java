@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No5_用两个栈实现队列;
+package zhulei.JianZhiOffer.No5_用两个栈实现队列;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No9_变态跳台阶;
+package zhulei.JianZhiOffer.No9_变态跳台阶;
 
 import java.util.Arrays;
 

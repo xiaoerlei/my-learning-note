@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No20_包含min函数的栈;
+package zhulei.JianZhiOffer.No20_包含min函数的栈;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No50_数组中重复的数字;
+package zhulei.JianZhiOffer.No50_数组中重复的数字;
 
 /**
  * @Author: zl

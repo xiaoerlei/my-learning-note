@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No55_链表中环的入口节点;
+package zhulei.JianZhiOffer.No55_链表中环的入口节点;
 
 import java.util.HashMap;
 

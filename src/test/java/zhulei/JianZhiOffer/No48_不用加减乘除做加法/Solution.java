@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No48_不用加减乘除做加法;
+package zhulei.JianZhiOffer.No48_不用加减乘除做加法;
 
 /**
  * @Author: zl

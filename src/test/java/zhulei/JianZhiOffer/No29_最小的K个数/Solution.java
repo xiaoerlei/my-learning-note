@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No29_最小的K个数;
+package zhulei.JianZhiOffer.No29_最小的K个数;
 
 import java.util.ArrayList;
 import java.util.Arrays;

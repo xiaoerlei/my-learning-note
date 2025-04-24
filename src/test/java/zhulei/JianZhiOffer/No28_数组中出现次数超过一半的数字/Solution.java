@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No28_数组中出现次数超过一半的数字;
+package zhulei.JianZhiOffer.No28_数组中出现次数超过一半的数字;
 
 /**
  * @Author: zl

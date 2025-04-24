@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No8_跳台阶;
+package zhulei.JianZhiOffer.No8_跳台阶;
 
 /**
  * @Author: zl

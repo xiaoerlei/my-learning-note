@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No14_链表中的第k个节点;
+package zhulei.JianZhiOffer.No14_链表中的第k个节点;
 
 /**
  * @Author: zl

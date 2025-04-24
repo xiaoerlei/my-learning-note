@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No34_第一个只出现一次的字符;
+package zhulei.JianZhiOffer.No34_第一个只出现一次的字符;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

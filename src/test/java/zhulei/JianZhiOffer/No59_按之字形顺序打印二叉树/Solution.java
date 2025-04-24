@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No59_按之字形顺序打印二叉树;
+package zhulei.JianZhiOffer.No59_按之字形顺序打印二叉树;
 
 import java.util.ArrayList;
 import java.util.Collections;

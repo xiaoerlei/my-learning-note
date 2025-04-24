@@ -1,4 +1,6 @@
-package zhulei.JianzhiOffer.No16_合并两个排序的链表;
+package zhulei.JianZhiOffer.No16_合并两个排序的链表;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * @Author: zl
@@ -7,7 +9,8 @@ package zhulei.JianzhiOffer.No16_合并两个排序的链表;
  */
 public class Solution {
 
-    public static void main(String[] args) {
+    @Test
+    public void testMerge(){
 
     }
 

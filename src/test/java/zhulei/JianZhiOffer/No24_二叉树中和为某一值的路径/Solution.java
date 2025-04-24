@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No24_二叉树中和为某一值的路径;
+package zhulei.JianZhiOffer.No24_二叉树中和为某一值的路径;
 
 import java.util.ArrayList;
 

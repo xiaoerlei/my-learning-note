@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No44_反转单词顺序列;
+package zhulei.JianZhiOffer.No44_反转单词顺序列;
 
 /**
  * @Author: zl

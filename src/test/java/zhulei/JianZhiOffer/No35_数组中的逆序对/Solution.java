@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No35_数组中的逆序对;
+package zhulei.JianZhiOffer.No35_数组中的逆序对;
 
 /**
  * @Author: zl

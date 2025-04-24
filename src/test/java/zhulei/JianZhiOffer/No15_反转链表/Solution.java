@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No15_反转链表;
+package zhulei.JianZhiOffer.No15_反转链表;
 
 /**
  * @Author: zl

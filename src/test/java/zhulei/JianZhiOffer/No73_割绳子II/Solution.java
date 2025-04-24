@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No73_割绳子II;
+package zhulei.JianZhiOffer.No73_割绳子II;
 
 import org.junit.jupiter.api.Test;
 

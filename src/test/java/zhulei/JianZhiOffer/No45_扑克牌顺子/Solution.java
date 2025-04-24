@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No45_扑克牌顺子;
+package zhulei.JianZhiOffer.No45_扑克牌顺子;
 
 import java.util.Arrays;
 

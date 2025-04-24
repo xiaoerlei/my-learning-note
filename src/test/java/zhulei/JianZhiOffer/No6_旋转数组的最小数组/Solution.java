@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No6_旋转数组的最小数组;
+package zhulei.JianZhiOffer.No6_旋转数组的最小数组;
 
 /**
  * @Author: zl

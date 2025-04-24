@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No39_平衡二叉树;
+package zhulei.JianZhiOffer.No39_平衡二叉树;
 
 /**
  * @Author: zl

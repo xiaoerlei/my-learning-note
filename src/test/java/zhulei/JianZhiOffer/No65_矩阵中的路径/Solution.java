@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No65_矩阵中的路径;
+package zhulei.JianZhiOffer.No65_矩阵中的路径;
 
 /**
  * @Author: zl

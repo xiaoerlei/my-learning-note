@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No21_弹出序列;
+package zhulei.JianZhiOffer.No21_弹出序列;
 
 import java.util.LinkedHashMap;
 

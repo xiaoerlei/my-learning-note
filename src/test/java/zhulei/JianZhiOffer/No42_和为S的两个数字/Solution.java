@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No42_和为S的两个数字;
+package zhulei.JianZhiOffer.No42_和为S的两个数字;
 
 import java.util.ArrayList;
 

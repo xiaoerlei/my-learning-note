@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No40_数组中只出现一次的数字;
+package zhulei.JianZhiOffer.No40_数组中只出现一次的数字;
 
 import java.util.*;
 

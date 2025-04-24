@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No41_和为S的连续正数序列;
+package zhulei.JianZhiOffer.No41_和为S的连续正数序列;
 
 import org.junit.jupiter.api.Test;
 

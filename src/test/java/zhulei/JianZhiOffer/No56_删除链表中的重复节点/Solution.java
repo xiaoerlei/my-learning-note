@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No56_删除链表中的重复节点;
+package zhulei.JianZhiOffer.No56_删除链表中的重复节点;
 
 /**
  * @Author: zl

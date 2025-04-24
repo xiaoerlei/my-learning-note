@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No71_n个骰子的点数;
+package zhulei.JianZhiOffer.No71_n个骰子的点数;
 
 import org.junit.jupiter.api.Test;
 

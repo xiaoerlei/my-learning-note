@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No2_替换空格;
+package zhulei.JianZhiOffer.No2_替换空格;
 
 /**
  * @Author: zl

@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No49_把字符串转化为整数;
+package zhulei.JianZhiOffer.No49_把字符串转化为整数;
 
 import org.junit.jupiter.api.Test;
 

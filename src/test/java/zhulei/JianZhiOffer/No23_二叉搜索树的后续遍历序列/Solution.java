@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No23_二叉搜索树的后续遍历序列;
+package zhulei.JianZhiOffer.No23_二叉搜索树的后续遍历序列;
 
 /**
  * @Author: zl

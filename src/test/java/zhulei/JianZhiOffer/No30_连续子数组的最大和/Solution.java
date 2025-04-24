@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No30_连续子数组的最大和;
+package zhulei.JianZhiOffer.No30_连续子数组的最大和;
 
 /**
  * @Author: zl

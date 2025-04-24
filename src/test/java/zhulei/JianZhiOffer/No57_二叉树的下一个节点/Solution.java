@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No57_二叉树的下一个节点;
+package zhulei.JianZhiOffer.No57_二叉树的下一个节点;
 
 /**
  * @Author: zl

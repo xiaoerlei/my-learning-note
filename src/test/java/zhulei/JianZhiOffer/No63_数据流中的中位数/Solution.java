@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No63_数据流中的中位数;
+package zhulei.JianZhiOffer.No63_数据流中的中位数;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No64_滑动窗口的最大值;
+package zhulei.JianZhiOffer.No64_滑动窗口的最大值;
 
 import org.junit.jupiter.api.Test;
 import java.util.*;

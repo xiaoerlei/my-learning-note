@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No1_二维数组中的查找;
+package zhulei.JianZhiOffer.No1_二维数组中的查找;
 
 /**
  * @Author: zl

@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No7_斐波那契数列;
+package zhulei.JianZhiOffer.No7_斐波那契数列;
 
 /**
  * @Author: zl

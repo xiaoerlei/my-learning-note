@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No31_整数中1出现的次数;
+package zhulei.JianZhiOffer.No31_整数中1出现的次数;
 
 import org.junit.jupiter.api.Test;
 

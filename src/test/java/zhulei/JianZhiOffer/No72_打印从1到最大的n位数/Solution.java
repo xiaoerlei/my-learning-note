@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No72_打印从1到最大的n位数;
+package zhulei.JianZhiOffer.No72_打印从1到最大的n位数;
 
 import org.junit.jupiter.api.Test;
 

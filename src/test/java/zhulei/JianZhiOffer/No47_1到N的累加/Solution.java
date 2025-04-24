@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No47_1到N的累加;
+package zhulei.JianZhiOffer.No47_1到N的累加;
 
 /**
  * @Author: zl

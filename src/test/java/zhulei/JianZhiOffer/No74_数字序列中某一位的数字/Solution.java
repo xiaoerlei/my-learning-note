@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No74_数字序列中某一位的数字;
+package zhulei.JianZhiOffer.No74_数字序列中某一位的数字;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No3_从尾到头打印链表;
+package zhulei.JianZhiOffer.No3_从尾到头打印链表;
 
 import java.util.ArrayList;
 import java.util.Collections;

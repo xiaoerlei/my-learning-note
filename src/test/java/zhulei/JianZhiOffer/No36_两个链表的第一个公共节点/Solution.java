@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No36_两个链表的第一个公共节点;
+package zhulei.JianZhiOffer.No36_两个链表的第一个公共节点;
 
 import java.util.HashSet;
 

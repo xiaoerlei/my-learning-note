@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No46_孩子们的游戏;
+package zhulei.JianZhiOffer.No46_孩子们的游戏;
 
 import java.util.ArrayList;
 

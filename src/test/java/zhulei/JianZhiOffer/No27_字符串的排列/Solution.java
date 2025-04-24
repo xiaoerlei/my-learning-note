@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No27_字符串的排列;
+package zhulei.JianZhiOffer.No27_字符串的排列;
 
 import org.junit.jupiter.api.Test;
 

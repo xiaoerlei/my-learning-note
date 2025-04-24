@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No52_正则表达式匹配;
+package zhulei.JianZhiOffer.No52_正则表达式匹配;
 
 import org.junit.jupiter.api.Test;
 

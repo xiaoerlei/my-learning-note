@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No18_二叉树的镜像;
+package zhulei.JianZhiOffer.No18_二叉树的镜像;
 
 /**
  * @Author: zl

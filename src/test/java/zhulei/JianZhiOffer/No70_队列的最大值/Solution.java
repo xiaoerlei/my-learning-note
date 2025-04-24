@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No70_队列的最大值;
+package zhulei.JianZhiOffer.No70_队列的最大值;
 
 import org.junit.jupiter.api.Test;
 import java.util.*;

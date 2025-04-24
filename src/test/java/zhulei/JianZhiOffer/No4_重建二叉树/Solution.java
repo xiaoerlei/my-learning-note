@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No4_重建二叉树;
+package zhulei.JianZhiOffer.No4_重建二叉树;
 
 import java.util.HashMap;
 

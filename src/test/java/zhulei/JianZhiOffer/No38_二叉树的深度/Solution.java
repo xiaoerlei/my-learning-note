@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No38_二叉树的深度;
+package zhulei.JianZhiOffer.No38_二叉树的深度;
 
 /**
  * @Author: zl

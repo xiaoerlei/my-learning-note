@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No69_圆圈中最后剩下的数字;
+package zhulei.JianZhiOffer.No69_圆圈中最后剩下的数字;
 
 import org.junit.jupiter.api.Test;
 

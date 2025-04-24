@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No43_左旋转字符串;
+package zhulei.JianZhiOffer.No43_左旋转字符串;
 
 /**
  * @Author: zl

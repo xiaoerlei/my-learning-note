@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No10_矩形覆盖;
+package zhulei.JianZhiOffer.No10_矩形覆盖;
 
 /**
  * @Author: zl

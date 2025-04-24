@@ -1,4 +1,4 @@
-package zhulei.JianzhiOffer.No51_构建乘积数组;
+package zhulei.JianZhiOffer.No51_构建乘积数组;
 
 /**
  * @Author: zl
