@@ -1,7 +1,6 @@
 package zhulei.LeetCode.No1300_统计最大组的数目;
 
-import org.junit.Test;
-
+import org.junit.jupiter.api.Test;
 import java.util.HashMap;
 import java.util.Map;
 
