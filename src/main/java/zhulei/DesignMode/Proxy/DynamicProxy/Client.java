@@ -1,7 +1,5 @@
 package zhulei.DesignMode.Proxy.DynamicProxy;
 
-import org.junit.jupiter.api.Test;
-
 /**
  * @Author: zl
  * @Date: 2019/4/2 17:33
@@ -17,8 +15,7 @@ import org.junit.jupiter.api.Test;
  */
 public class Client {
 
-    @Test
-    public void fun() {
+    public static void main(String[] args) {
         BookFacadeImpl bookFacadeImpl = new BookFacadeImpl();
         BookFacadeProxy proxy = new BookFacadeProxy();
         BookFacade bookfacade = (BookFacade) proxy.bind(bookFacadeImpl);

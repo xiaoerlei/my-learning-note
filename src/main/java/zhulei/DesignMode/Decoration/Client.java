@@ -1,16 +1,12 @@
 package zhulei.DesignMode.Decoration;
 
-import org.junit.jupiter.api.Test;
-
 /**
  * @Author: zl
  * @Date: 2022/8/12 21:37
  * @Description:
  */
 public class Client {
-
-    @Test
-    void fun() {
+    public static void main(String[] args) {
         Food noodles = new Noodles();
         EggFood eggNoodles = new EggFood(noodles);
         HumFood humNoodles = new HumFood(eggNoodles);

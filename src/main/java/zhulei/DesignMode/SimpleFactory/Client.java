@@ -1,16 +1,12 @@
 package zhulei.DesignMode.SimpleFactory;
 
-import org.junit.jupiter.api.Test;
-
 /**
  * @Author: zl
  * @Date: 2022/8/5 20:59
  * @Description:
  */
 public class Client {
-
-    @Test
-    void fun() {
+    public static void main(String[] args) {
         // 加法工厂
         Operation add = Factory.createFactory("+");
         System.out.println(add.getResult(1.2, 2.5));

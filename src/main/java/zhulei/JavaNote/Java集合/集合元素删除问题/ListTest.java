@@ -1,6 +1,5 @@
 package zhulei.JavaNote.Java集合.集合元素删除问题;
 
-import org.junit.jupiter.api.Test;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -22,8 +21,13 @@ public class ListTest {
      *
      * 补充，Iterator来删除集合中某一个不满足条件的元素时，首先需要使用next方法迭代出集合中的元素，然后才能调用remove方法，否则集合可能会因为对同一个Iterator remove而抛异常
      */
-    @Test
-    void removeTest1() {
+
+    public static void main(String[] args) {
+        removeTest1();
+        removeTest2();
+    }
+
+    static void removeTest1() {
         List<Integer> list = new ArrayList<Integer>() {
             {
                 add(1);
@@ -90,8 +94,7 @@ public class ListTest {
      * 正序删除一般情况下容易发生数组越界
      * 此外，由于正常的for循环是调用list.get()方法来取值的，非foreach语法糖，所以不会出现ConcurrentModificationException
      */
-    @Test
-    void removeTest2() {
+    static void removeTest2() {
         List<String> list = new ArrayList<String>() {
             {
                 add("a");

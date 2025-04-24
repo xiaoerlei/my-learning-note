@@ -16,11 +16,11 @@ import java.util.Map;
  *                  [1,10]，[2,11]，[3,12]，[4,13]，[5]，[6]，[7]，[8]，[9]。总共有 4 个组拥有的数字并列最多。
  *                  ([1,10]的位数和都是1，1 = 1 + 0，同理[2,11]可看作是 2 = 1 + 1)
  */
-public class Solution {
+public class CountLargestGroupTest {
 
     @Test
-    public void test() {
-        System.out.println(countLargestGroup(135));
+    void testLargest() {
+        System.out.println(countLargestGroup(16));
     }
 
     public int countLargestGroup(int n) {

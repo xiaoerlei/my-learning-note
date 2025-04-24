@@ -1,14 +1,8 @@
 package zhulei.DataStructure.Tree.根据前序中序来计算后序遍历;
 
-import org.junit.jupiter.api.Test;
 import java.util.*;
 
 public class CalPostOrder {
-
-    @Test
-    public void function(){
-        // 测试使用
-    }
 
 
     /**

@@ -11,10 +11,6 @@ javafx {
     modules = [ 'javafx.base', 'javafx.controls', 'javafx.graphics' ]
 }
 
-// 配置项目信息（可选）
-group 'com.example'
-version '1.0-SNAPSHOT'
-
 // 配置仓库地址（从哪里下载依赖）
 repositories {
     maven { url 'https://maven.aliyun.com/repository/public' }
@@ -34,8 +30,18 @@ dependencies {
     // Lombok依赖
     compileOnly 'org.projectlombok:lombok:1.18.32'
     annotationProcessor 'org.projectlombok:lombok:1.18.32'
+
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.junit.platform:junit-platform-launcher'
 }
 
+test {
+    useJUnitPlatform()
+    systemProperty 'junit.platform.output.capture.stdout', 'true'
+    systemProperty 'junit.platform.output.capture.stderr', 'true'
+    scanForTestClasses = true
+}
 
 
 // 配置Java版本

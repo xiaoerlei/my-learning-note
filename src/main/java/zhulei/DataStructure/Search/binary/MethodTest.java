@@ -1,6 +1,5 @@
 package zhulei.DataStructure.Search.binary;
 
-import org.junit.jupiter.api.Test;
 
 /**
  * @Author: zl
@@ -9,8 +8,7 @@ import org.junit.jupiter.api.Test;
  */
 public class MethodTest {
 
-    @Test
-    void fun() {
+    public static void main(String[] args) {
         int[] arr = {3, 5, 11, 17, 21, 23, 28, 30, 32, 50, 64, 78, 81, 95, 101};
         System.out.println(BinarySearch.binarySearch(arr, 0, arr.length - 1, 22));
         System.out.println(BinarySearch.binarySearch(arr, 50));

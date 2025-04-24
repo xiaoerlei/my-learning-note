@@ -1,7 +1,5 @@
 package zhulei.DataStructure.Sort.归并排序;
 
-import org.junit.jupiter.api.Test;
-
 import java.util.Arrays;
 
 /**
@@ -11,20 +9,19 @@ import java.util.Arrays;
  */
 public class UpToDownMergeSort {
 
-    @Test
-    public void fun(){
+    public static void main(String[] args) {
         int[] arr = {49, 38, 65, 97, 76, 13, 27, 50};
         MergeSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
-    public void MergeSort(int[] arr) {
+    public static void MergeSort(int[] arr) {
         if(arr.length == 0)
             return;
         sort(arr, 0, arr.length - 1);
     }
 
-    public void sort(int[] arr, int start, int end) {
+    public static void sort(int[] arr, int start, int end) {
         if(start >= end)
             return;
 
@@ -34,7 +31,7 @@ public class UpToDownMergeSort {
         merge(arr, start, mid, end);
     }
 
-    private void merge(int[] arr, int start, int mid, int end) {
+    private static void merge(int[] arr, int start, int mid, int end) {
         int[] temp = new int[arr.length];
         // 定义三个指针。分别指向合并前的两个数组，以及temp数组
         int i = start, j = mid + 1, k = start;

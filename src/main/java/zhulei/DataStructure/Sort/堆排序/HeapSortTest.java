@@ -1,7 +1,5 @@
 package zhulei.DataStructure.Sort.堆排序;
 
-import org.junit.jupiter.api.Test;
-
 import java.util.Arrays;
 
 /**
@@ -11,8 +9,7 @@ import java.util.Arrays;
  */
 public class HeapSortTest {
 
-    @Test
-    void fun() {
+    public static void main(String[] args) {
         int[] arr = {5, 8, 6, 3, 7, 4, 9};
 
         // 测试小顶堆 排序

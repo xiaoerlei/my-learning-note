@@ -1,7 +1,5 @@
 package zhulei.DesignMode.Proxy.StaticProxy;
 
-import org.junit.jupiter.api.Test;
-
 /**
  * @Author: zl
  * @Date: 2019/4/2 17:30
@@ -10,8 +8,7 @@ import org.junit.jupiter.api.Test;
  */
 public class Client {
 
-    @Test
-    public void fun() {
+    public static void main(String[] args) {
         Count countImpl = new CountImpl();
         Count countProxy = new CountProxy(countImpl);
         countProxy.updateCount();
