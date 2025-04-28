@@ -26,6 +26,8 @@ dependencies {
     implementation 'org.openjfx:javafx-graphics:17.0.2'
     implementation 'org.apache.commons:commons-lang3:3.12.0'
     implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'com.sparkjava:spark-core:2.9.4' // Spark Framework 核心库
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.0'
 
     // Lombok依赖
     compileOnly 'org.projectlombok:lombok:1.18.32'
@@ -43,6 +45,9 @@ test {
     scanForTestClasses = true
 }
 
+application {
+    mainClass = 'DSChatSparkDemo' // 替换为主类名
+}
 
 // 配置Java版本
 java {
